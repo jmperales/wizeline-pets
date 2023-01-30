@@ -1,0 +1,41 @@
+README.md
+target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### VS Code ###
+.vscode/
+
+######################
+# Maven
+######################
+/log/
+*/target/**
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+######################
+# Maven Wrapper
+######################
+!.mvn/wrapper/maven-wrapper.jarf
+
+######################
+# Package Files
+######################
+*.jar
+*.war
+*.ear
+*.db
